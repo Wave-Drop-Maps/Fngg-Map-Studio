@@ -16,8 +16,7 @@ https://fortnite.gg/maps/{version}/{z}/{x}/{y}.{jpg|webp}
 ```
 
 and drawing coordinates live in Leaflet `CRS.Simple` space with bounds
-`[[-256,0],[0,256]]`, which **does not change between patches** (see
-[research/how-fortnite-gg-works.md](../research/how-fortnite-gg-works.md)). Only the
+`[[-256,0],[0,256]]`, which **does not change between patches**. Only the
 imagery is re-rendered each season.
 
 So rewriting the tile image URLs in the page gives you fn.gg's own UI — labels,

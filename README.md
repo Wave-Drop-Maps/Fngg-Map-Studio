@@ -116,7 +116,6 @@ app/downloader.py     tile download, optional stitch
 app/fngg_proxy.py     serves fortnite.gg's UI with our drawing and tiles
 app/server.py         HTTP API + background job runner
 app/static/           frontend
-research/             how fortnite.gg's map, tiles and drawings actually work
 ```
 
 ## Licence
